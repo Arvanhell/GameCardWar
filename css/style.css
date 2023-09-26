@@ -16,13 +16,34 @@ img{
   height: 200px;
 }
 
-h1,h2{
+h1,h2,h3{
   text-align: center;
+  color: rgb(198, 189, 189);
   padding: .5em;
   border-bottom: dotted 1px rgb(226, 140, 140);
+ 
 }
 
+h3{
+  background-color: brown;
+  width: 50%;
+  margin: .5em auto;
+}
+body{
+  background-image: url(../img/A1.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.player{
+  background-color: rgb(155, 24, 24);
+}
 
+button{
+  background-color: red;
+  color: white;
+  margin: 0 auto;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
